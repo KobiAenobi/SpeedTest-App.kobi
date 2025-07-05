@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SpeedTestApp_GUI</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<ApplicationIcon>AppICON.ico</ApplicationIcon>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\AppICON.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="AppICON.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="images\AppICON.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
