@@ -54,10 +54,10 @@ namespace SpeedTestApp_GUI.usercontrol
 
         private async Task RunDownloadTestApp()
         {
-            string downloadPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C++ Files", "Download_Test_App.exe");
+            // string downloadPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C++ Files", "Download_Test_App.exe");
             ProcessStartInfo psi = new ProcessStartInfo
             {
-                FileName = downloadPath,
+                FileName = "Download_Test_App.exe",
 
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
@@ -94,10 +94,10 @@ namespace SpeedTestApp_GUI.usercontrol
 
         private async Task RunUploadTestApp()
         {
-            string uploadPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C++ Files", "Upload_Test_App.exe");
+            // string uploadPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "C++ Files", "Upload_Test_App.exe");
             ProcessStartInfo psi = new ProcessStartInfo
             {
-                FileName = uploadPath,
+                FileName = "Upload_Test_App.exe",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true
