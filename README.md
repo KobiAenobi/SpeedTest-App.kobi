@@ -4,6 +4,7 @@ A Internet Speed Test App with BACKEND using CPP and CURL library & FRONTEND  C#
 
 What is CURL?
 curl is a command-line tool and library used for transferring data with URLs. It's a versatile tool for interacting with web servers, APIs, and other services, supporting various protocols and features. Essentially, curl allows you to send and receive data to and from servers using a command-line interface.
+
 curl is designed for transferring data to and from servers using URLs.
 This TRANSFERRING OF FILES TO & FORM THE SERVERS is what is used to:
 1. DOWNLOAD the data form a url for DOWNLOAD TEST using Cloudflare’s speed testing infrastructure(https://speed.cloudflare.com/__down?bytes=10240000000) to download a 10240000000 bytes file.
